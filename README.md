@@ -1,6 +1,6 @@
-# C-C-
+# C++ GROUP LIVE CODING TASK 
 
-GROUP LIVE CODING TASK
+
 
 1.	Getting the average of three numbers
 Write the C++ source code that outputs the average of three numbers. Let the values of the three numbers be, 10, 20 and 45. The expected screen output is,
