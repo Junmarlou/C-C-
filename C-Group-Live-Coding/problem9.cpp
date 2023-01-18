@@ -20,7 +20,7 @@ int main (){
 
     if (recommendee == 'R'){
         cout << "\t\t Accepted" << endl;
-    }else if( citizenship == 'C' && age > 21  && age < 25 || height >= 200){
+    }else if( citizenship == 'C' && age > 21  && age < 25 & & height >= 200){
         cout << "\t\t Accepted" << endl;
     }else{
         cout << "\t\t Rejected"<< endl;
