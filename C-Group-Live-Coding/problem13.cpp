@@ -1,18 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main (){
-    int first,second,result,sequence;
-
-    cout << "Sequence:";
+int main(){
+    int sequence;
+    int first = 0,second = 1,next;
+    cout << "Enter how many sequence:";
     cin >> sequence;
 
-    for ( int x=1; x <= sequence;x++ ){
-        first=1;
-        second=1;
-        first+second
-
-    } 
-
-
+    for (int i = 0; i < sequence; i++){
+        
+        next = first + second;
+        cout << next << "\t";
+        first = second;    
+        second = next;   
+    }
 }

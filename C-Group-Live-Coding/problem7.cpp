@@ -4,8 +4,6 @@ using namespace std;
 int main(){
     double grosspay,wholding,rate,hpr,hours,netpay;
 
-    
-
     cout << "Enter your hourly pay rate:";
     cin >> hpr;
     cout << "Enter hours worked:";

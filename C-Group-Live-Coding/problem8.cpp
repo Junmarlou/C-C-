@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     int NSATscore,salary,examscore;
     int average = (NSATscore+examscore)/2;
+    
     cout << "Enter NSAT score:";
     cin >> NSATscore;
     cout << "Enter the monthly salary of your parents:";
