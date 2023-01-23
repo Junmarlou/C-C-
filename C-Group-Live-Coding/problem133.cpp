@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-    int sequence;
-    int first = 0,second = 1,next;
+    int sequence,first = 0,second = 1,next;
+    
     cout << "Enter how many sequence:";
     cin >> sequence;
 
